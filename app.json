@@ -22,11 +22,18 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "permissions":["CAMERA_ROLL"]
+      "permissions": [
+        "CAMERA"
+      ],
+      "package": "com.speqtrum.picture"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72e7bef3-8ce0-47e4-917f-d0e198c67ab2"
+      }
     }
-    
   }
 }
